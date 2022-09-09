@@ -3,6 +3,7 @@ from pyspark import SparkConf, SparkContext
 conf = SparkConf().setMaster("local").setAppName("MinTemperatures")
 sc = SparkContext(conf = conf)
 
+
 def parseLine(line):
     fields = line.split(',')
     stationID = fields[0]
