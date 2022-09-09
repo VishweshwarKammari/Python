@@ -4,6 +4,7 @@ import glob
 import sqlite3
 import json
 
+
 #setting up input and output paths:
 ippath="s3://trivago-case-study/case-study-data/import/"
 oppath="s3://trivago-case-study/case-study-data/output"
